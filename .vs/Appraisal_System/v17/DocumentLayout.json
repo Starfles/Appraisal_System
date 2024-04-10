@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\C#\\Appraisal_System\\Appraisal_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC29FB1E-297C-45FF-B2C0-E6EE0D108235}|Appraisal_System.csproj|d:\\c#\\appraisal_system\\appraisal_system\\frmusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AC29FB1E-297C-45FF-B2C0-E6EE0D108235}|Appraisal_System.csproj|solutionrelative:frmusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AC29FB1E-297C-45FF-B2C0-E6EE0D108235}|Appraisal_System.csproj|d:\\c#\\appraisal_system\\appraisal_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC29FB1E-297C-45FF-B2C0-E6EE0D108235}|Appraisal_System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC29FB1E-297C-45FF-B2C0-E6EE0D108235}|Appraisal_System.csproj|D:\\C#\\Appraisal_System\\Appraisal_System\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC29FB1E-297C-45FF-B2C0-E6EE0D108235}|Appraisal_System.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC29FB1E-297C-45FF-B2C0-E6EE0D108235}|Appraisal_System.csproj|d:\\c#\\appraisal_system\\appraisal_system\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AC29FB1E-297C-45FF-B2C0-E6EE0D108235}|Appraisal_System.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC29FB1E-297C-45FF-B2C0-E6EE0D108235}|Appraisal_System.csproj|D:\\C#\\Appraisal_System\\Appraisal_System\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AC29FB1E-297C-45FF-B2C0-E6EE0D108235}|Appraisal_System.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AC29FB1E-297C-45FF-B2C0-E6EE0D108235}|Appraisal_System.csproj|d:\\c#\\appraisal_system\\appraisal_system\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC29FB1E-297C-45FF-B2C0-E6EE0D108235}|Appraisal_System.csproj|solutionrelative:sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,37 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmUserManager.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\C#\\Appraisal_System\\Appraisal_System\\FrmUserManager.cs",
-              "RelativeDocumentMoniker": "FrmUserManager.cs",
-              "ToolTip": "D:\\C#\\Appraisal_System\\Appraisal_System\\FrmUserManager.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "FrmUserManager.cs [\u8BBE\u8BA1]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Appraisal_System\\Appraisal_System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\C#\\Appraisal_System\\Appraisal_System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T07:52:02.823Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-04-10T13:08:13.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmMain.cs",
-              "DocumentMoniker": "D:\\C#\\Appraisal_System\\Appraisal_System\\FrmMain.cs",
-              "RelativeDocumentMoniker": "FrmMain.cs",
-              "ToolTip": "D:\\C#\\Appraisal_System\\Appraisal_System\\FrmMain.cs",
-              "RelativeToolTip": "FrmMain.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAmwA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T07:51:02.548Z"
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\C#\\Appraisal_System\\Appraisal_System\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\C#\\Appraisal_System\\Appraisal_System\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-10T12:20:34.15Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmMain.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\C#\\Appraisal_System\\Appraisal_System\\FrmMain.cs",
-              "RelativeDocumentMoniker": "FrmMain.cs",
-              "ToolTip": "D:\\C#\\Appraisal_System\\Appraisal_System\\FrmMain.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "FrmMain.cs [\u8BBE\u8BA1]",
+              "Title": "SqlHelper.cs",
+              "DocumentMoniker": "D:\\C#\\Appraisal_System\\Appraisal_System\\SqlHelper.cs",
+              "RelativeDocumentMoniker": "SqlHelper.cs",
+              "ToolTip": "D:\\C#\\Appraisal_System\\Appraisal_System\\SqlHelper.cs",
+              "RelativeToolTip": "SqlHelper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAkwAwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T07:50:54.449Z"
+              "WhenOpened": "2024-04-10T12:10:47.336Z",
+              "EditorCaption": ""
             }
           ]
         }
