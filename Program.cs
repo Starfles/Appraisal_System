@@ -15,6 +15,7 @@ namespace Appraisal_System
         [STAThread]
         static void Main()
         {
+            // 用于将配置文件中的信息传送到其他文件里面
             SqlHelper.conStr = ConfigurationManager.ConnectionStrings["conStr"].ConnectionString;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

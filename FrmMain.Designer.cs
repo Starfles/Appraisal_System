@@ -43,6 +43,7 @@
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -52,8 +53,9 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
-            this.splitContainer1.Size = new System.Drawing.Size(1288, 774);
-            this.splitContainer1.SplitterDistance = 341;
+            this.splitContainer1.Size = new System.Drawing.Size(727, 398);
+            this.splitContainer1.SplitterDistance = 152;
+            this.splitContainer1.SplitterWidth = 2;
             this.splitContainer1.TabIndex = 0;
             // 
             // treeView1
@@ -63,6 +65,7 @@
             this.treeView1.FullRowSelect = true;
             this.treeView1.ItemHeight = 40;
             this.treeView1.Location = new System.Drawing.Point(0, 0);
+            this.treeView1.Margin = new System.Windows.Forms.Padding(2);
             this.treeView1.Name = "treeView1";
             treeNode1.Name = "utUserManager";
             treeNode1.Text = "用户管理";
@@ -78,16 +81,17 @@
             treeNode3,
             treeNode4});
             this.treeView1.ShowLines = false;
-            this.treeView1.Size = new System.Drawing.Size(341, 774);
+            this.treeView1.Size = new System.Drawing.Size(152, 398);
             this.treeView1.TabIndex = 0;
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1288, 774);
+            this.ClientSize = new System.Drawing.Size(727, 398);
             this.Controls.Add(this.splitContainer1);
             this.IsMdiContainer = true;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmMain";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.FrmMain_Load);
