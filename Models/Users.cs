@@ -9,20 +9,18 @@ namespace Appraisal_System.Models
 {
     public class Users
     {
-        int Id { get; set; }
-        string UserName { get; set; }
-        int Sex { get; set; }
-        int BaseTypeId { get; set; }
-        bool IsDel { get; set; }
-        int AppraisalBase {  get; set; }
-        string BaseType { get; set; }
+        public int Id { get; set; }
+        public string UserName { get; set; }
+        public char Sex { get; set; }
+        public int BaseTypeId { get; set; }
+        public char IsDel { get; set; }
+        public int AppraisalBase {  get; set; }
+        public string BaseType { get; set; }
 
-        private static List<Users> GetListJoinAppraisal()
+        public static List<Users> GetListJoinAppraisal()
         {
             List<Users> users = new List<Users>();
-            DataTable dt = SqlHelper.ExacuteTable("SELECT" +
-                " u.Id, u.UserName, u.Sex, u.BaseTypeId, u.IsDel, a.AppraisalBase, a.BaseType" +
-                " FROM Users u LEFT JOIN AppraisalBases a ON u.BaseTypeId = a.Id");
+            DataTable dt = SqlHelper.ExacuteTable("SELECT u.Id, u.UserName, u.Sex, u.BaseTypeId, u.IsDel, a.AppraisalBase, a.BaseType FROM Users u LEFT JOIN AppraisalBases a ON u.BaseTypeId = a.Id");
             foreach (DataRow dr in dt.Rows)
             {
                 users.Add(ToModel(dr));
@@ -30,14 +28,14 @@ namespace Appraisal_System.Models
             return users;
         }
 
-        private static Users ToModel(DataRow dr)
+        public static Users ToModel(DataRow dr)
         {
             Users user = new Users();
             user.Id = (int)dr["Id"];
             user.UserName = dr["UserName"].ToString();
-            user.Sex = (int)dr["Sex"];
+            user.Sex = (int)dr["Sex"] == 1 ? '男' : '女';
             user.BaseTypeId = (int)dr["BaseTypeId"];
-            user.IsDel = (bool)dr["IsDel"];
+            user.IsDel = (bool)dr["IsDel"] == true ? '是' : '否';
             user.AppraisalBase = (int)dr["AppraisalBase"];
             user.BaseType = dr["BaseType"].ToString();
             return user;

@@ -27,12 +27,12 @@ namespace Appraisal_System.Models
 
         public static AppraisalBases ToModel(DataRow dr)
         {
-            AppraisalBases appraisalBases = new AppraisalBases();
-            appraisalBases.Id = (int)dr["Id"];
-            appraisalBases.BaseType = dr["BaseType"].ToString();
-            appraisalBases.AppraisalBase = (int)dr["AppraisalBase"];
-            appraisalBases.IsDel = (bool)dr["IsDel"];
-            return appraisalBases;
+            AppraisalBases appraisalBase = new AppraisalBases();
+            appraisalBase.Id = (int)dr["Id"];
+            appraisalBase.BaseType = dr["BaseType"].ToString();
+            appraisalBase.AppraisalBase = (int)dr["AppraisalBase"];
+            appraisalBase.IsDel = (bool)dr["IsDel"];
+            return appraisalBase;
         }
     }
 }

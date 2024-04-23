@@ -21,7 +21,10 @@ namespace Appraisal_System
         private void FrmUserManager_Load(object sender, EventArgs e)
         {
             BindCbx();
-
+            dgvUserAppraisal.AutoGenerateColumns = false;
+            List<Users> users = new List<Users>();
+            users = Users.GetListJoinAppraisal();
+            dgvUserAppraisal.DataSource = users;
         }
 
         private void BindCbx()
@@ -66,6 +69,11 @@ namespace Appraisal_System
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
